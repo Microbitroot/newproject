@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Copy the HTML, CSS, and JavaScript files to the appropriate directory
-COPY * /usr/share/nginx/html/index.html
+COPY * /usr/share/nginx/html/index.html/
 #COPY script.js /usr/share/nginx/html/script.js
 #COPY style.css /usr/share/nginx/html/style.css
 
