@@ -3,8 +3,8 @@ FROM nginx:latest
 
 # Copy the HTML, CSS, and JavaScript files to the appropriate directory
 COPY index.html /usr/share/nginx/html/index.html
-COPY script.js /usr/share/nginx/html/script.js
-COPY style.css /usr/share/nginx/html/style.css
+#COPY script.js /usr/share/nginx/html/script.js
+#COPY style.css /usr/share/nginx/html/style.css
 
 # Expose port 80 to the outside world
 EXPOSE 80
